@@ -1,0 +1,36 @@
+<h3>スケジュール詳細</h3>
+ 
+<table>
+  <tr>
+    <th>タイトル</th>
+    <td><%= @agenda.title %></td>
+  </tr>
+  <tr>
+    <th>開始日</th>
+    <td><%= @agenda.start_day %></td>
+  </tr>
+  <tr>
+    <th>投稿日時</th>
+    <td><%= @agenda.updated_at.to_s(:datetime_jp) %></td>
+  </tr>
+  <tr>
+    <th>終日</th>
+    <td>
+      <% if @agenda.whole_day == true %>
+        ○
+      <% end %>
+    </td>
+  </tr>
+  <tr>
+    <th>スケジュールメモ</th>
+    <td><%= @agenda.memo %></td>
+  </tr>
+</table>
+
+<div>
+  <ul>
+    <li><%= link_to "スケジュール一覧に戻る", :agendas %></li>
+  </ul>
+</div>
+
+

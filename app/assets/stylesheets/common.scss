@@ -1,0 +1,32 @@
+* {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color:orange;
+}
+
+footer{
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  background-color:orange;
+  display: flex;
+}
+
+h1 {
+  color: white;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.partial {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  background-color:orange;
+}
+

@@ -1,0 +1,8 @@
+ja:
+  activerecord:
+    models:
+      agenda: スケジュール
+    attributes:
+      agenda:
+        start_day: 開始日
+        finish_day: 終了日

@@ -1,0 +1,22 @@
+// Place all the styles related to the agendas controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+table th {
+  background-color: #fbc25b;
+  padding: 10px 20px;
+}
+
+table td {
+  background-color: #f9ecd5;
+  padding: 10px 20px;
+}
+
+.notice {
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #fbc25b;
+  padding: 5px;
+  
+}
